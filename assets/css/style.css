@@ -273,3 +273,15 @@ footer a {
 
     }
 }
+@media print {
+    header {
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    #allineamento {
+        display: none;
+    }
+    
+}
